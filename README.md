@@ -45,7 +45,7 @@ Except picture and restaurant feature all others have null values.
 There are total of 36 duplicate values for two restaurant - American Wild Wings and Arena Eleven, where all these duplicate values generally have null values.
 Rating represent ordinal data, has object data type should be integer.
 Timing represent the time when review was posted but show object data time, it should be converted into date time.
-- Total number of columns:   21
+ 
   
 ## Exploratory Data Analysis
  Mainly performed using Matplotlib and Seaborn library and the following graph and plots had been used:
@@ -76,23 +76,15 @@ Overall, this analysis provided valuable insights into the customer's experience
 
 Other important discoveries during analysis are -
 
-AB's - Absolute Barbecues, show maximum engagement and retention as it has maximum number of rating on average and Hotel Zara Hi-Fi show lowest engagement as has lowest average rating.
+- AB's - Absolute Barbecues, show maximum engagement and retention as it has maximum number of rating on average and Hotel Zara Hi-Fi show lowest engagement as has lowest average rating.
+- Price point for high rated hotel AB's= Absolute Barbecues is 1500 and price point for low rated restaurant Hotel Zara Hi-Fi is 400.
+- North Indian food followed by chinese are best or indeemand food as sold by most of the restaurants.
+- Great Buffets is the most frequently used tags and other tags like great, best, north, Hyderabad is also used in large quantity.
+- Satwinder singh is the most popular critic who has maximum number of follower and on an average he give 3.5 rating.
+- restaurant Collage - Hyatt Hyderabad Gachibowli is most expensive restaurant in the locality which has a price of 2800 for order and has 3.5 average rating. Hotels like Amul and Mohammedia Shawarma are least expensive with price of 150 and has 3.9 average rating.
 
-Price point for high rated hotel AB's= Absolute Barbecues is 1500 and price point for low rated restaurant Hotel Zara Hi-Fi is 400.
+Some recommendation based on the analysis :
 
-North Indian food followed by chinese are best or indeemand food as sold by most of the restaurants.
-
-Great Buffets is the most frequently used tags and other tags like great, best, north, Hyderabad is also used in large quantity.
-
-Satwinder singh is the most popular critic who has maximum number of follower and on an average he give 3.5 rating.
-
-restaurant Collage - Hyatt Hyderabad Gachibowli is most expensive restaurant in the locality which has a price of 2800 for order and has 3.5 average rating. Hotels like Amul and Mohammedia Shawarma are least expensive with price of 150 and has 3.9 average rating.
-
-Some recommendation based on the analysis ▶
-
-Based on negative reviews like some focused on issues with delivery time or food quality, the company should prioritize addressing these issues to imporve customer satisfaction.
-
-Based on the clustering, or user interaction customer should be given recommendations.
-
-Also use the clustering results to target specific customer segments and tailor marketing and promotional efforts accordingly.
-
+- Based on negative reviews like some focused on issues with delivery time or food quality, the company should prioritize addressing these issues to imporve customer satisfaction.
+- Based on the clustering, or user interaction customer should be given recommendations.
+- Also use the clustering results to target specific customer segments and tailor marketing and promotional efforts accordingly.
